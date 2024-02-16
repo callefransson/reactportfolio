@@ -1,0 +1,13 @@
+#cv-section{
+    background-color: #11161a;
+    box-shadow: -9px 6px 10px -1px rgba(0, 0, 0, 1.2);
+}
+#aside-content{
+    background-color: #0a0e11;
+    height: 100%;
+}
+@media only screen and (max-width: 600px) {
+    #cv-section {
+        flex-direction: column;
+    }
+  }

@@ -1,0 +1,15 @@
+main{
+    padding:3rem 0rem;
+}
+
+#form-container{
+    background-color: #0c0c0c;
+    max-width: 40rem;
+}
+button[type="submit"]{
+    border:1px solid #fff;
+    background-color: transparent;
+}
+button[type="submit"]:hover{
+    background-color: #0f0f0f;
+}

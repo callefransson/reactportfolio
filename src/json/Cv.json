@@ -1,0 +1,52 @@
+    {
+        "personalInfo":[
+            {
+        "id": 1,
+        "name": "Carl Fransson",
+        "age": 25,
+        "adress": "Blockvägen 22F",
+        "city": " 82434 Hudiksvall",
+        "email": "calle-fransson@hotmail.com",
+        "phone": "073-0760227"
+            }
+        ],
+        "education": [
+            {
+                "id": 2,
+                "school": "Edugrade Systemutvecklare med AI kompetens, 2023-2025."
+            },
+            {
+                "id": 3,
+                "school": "Teknikprogrammet med inriktning informations- och medieteknik, 2014-2017"
+            }
+        ],
+        "workExperience":[
+            {
+                "id":4,
+                "company": "OKQ8 bensinstation, Hudiksvall, 2023-nuvarande"
+            },
+            {
+                "id":5,
+                "company": "Preem/Time bensinstation med tillhörande gatukök. Iggesund Hudiksvall, 2014-2023"
+            }
+        ],
+        "language":[
+            {
+                "id": 6,
+                "swedish": "Modersmål",
+                "english": "Mycket bra kunskaper"
+            }
+        ],
+        "merits":[
+            {
+                "id": 7,
+                "B": "B behörighet med tillgång till bil"
+            }
+        ],
+        "references":[
+            {
+                "id": 8,
+                "reference": "Lämnas vid förfrågan"
+            }
+        ]
+    }

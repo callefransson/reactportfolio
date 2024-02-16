@@ -1,0 +1,15 @@
+.loading-content{
+    padding-top:10rem;      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+#card-container{
+    max-width: 25rem;
+}
+@media only screen and (max-width: 425px) {
+    #card-container {
+       width: 19rem;
+    }
+  }
