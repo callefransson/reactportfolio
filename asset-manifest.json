@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.98b6248e.css",
-    "main.js": "/react-portfolio/static/js/main.9c0aaadd.js",
-    "static/js/592.a901ef46.chunk.js": "/react-portfolio/static/js/592.a901ef46.chunk.js",
-    "static/media/computer-background.jpg": "/react-portfolio/static/media/computer-background.6cac7394d449448a03e3.jpg",
-    "static/media/fa-solid-900.ttf": "/react-portfolio/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
-    "static/media/profilbild-new.jpg": "/react-portfolio/static/media/profilbild-new.688cd8b03dc4c4e1a98d.jpg",
-    "static/media/fa-brands-400.ttf": "/react-portfolio/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
-    "static/media/fa-solid-900.woff2": "/react-portfolio/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
-    "static/media/fa-brands-400.woff2": "/react-portfolio/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
-    "static/media/fa-regular-400.ttf": "/react-portfolio/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
-    "static/media/codingBootstrapImage.jpg": "/react-portfolio/static/media/codingBootstrapImage.a37b6d1c239da083fa76.jpg",
-    "static/media/fa-regular-400.woff2": "/react-portfolio/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
-    "static/media/fa-v4compatibility.ttf": "/react-portfolio/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
-    "static/media/fa-v4compatibility.woff2": "/react-portfolio/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
-    "index.html": "/react-portfolio/index.html",
-    "main.98b6248e.css.map": "/react-portfolio/static/css/main.98b6248e.css.map",
-    "main.9c0aaadd.js.map": "/react-portfolio/static/js/main.9c0aaadd.js.map",
-    "592.a901ef46.chunk.js.map": "/react-portfolio/static/js/592.a901ef46.chunk.js.map"
+    "main.css": "/reactportfolio/static/css/main.73f45879.css",
+    "main.js": "/reactportfolio/static/js/main.f0a1a86b.js",
+    "static/js/592.a901ef46.chunk.js": "/reactportfolio/static/js/592.a901ef46.chunk.js",
+    "static/media/computer-background.jpg": "/reactportfolio/static/media/computer-background.6cac7394d449448a03e3.jpg",
+    "static/media/fa-solid-900.ttf": "/reactportfolio/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/profilbild-new.jpg": "/reactportfolio/static/media/profilbild-new.688cd8b03dc4c4e1a98d.jpg",
+    "static/media/fa-brands-400.ttf": "/reactportfolio/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/fa-solid-900.woff2": "/reactportfolio/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/fa-brands-400.woff2": "/reactportfolio/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/fa-regular-400.ttf": "/reactportfolio/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/codingBootstrapImage.jpg": "/reactportfolio/static/media/codingBootstrapImage.a37b6d1c239da083fa76.jpg",
+    "static/media/fa-regular-400.woff2": "/reactportfolio/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/fa-v4compatibility.ttf": "/reactportfolio/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/fa-v4compatibility.woff2": "/reactportfolio/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "index.html": "/reactportfolio/index.html",
+    "main.73f45879.css.map": "/reactportfolio/static/css/main.73f45879.css.map",
+    "main.f0a1a86b.js.map": "/reactportfolio/static/js/main.f0a1a86b.js.map",
+    "592.a901ef46.chunk.js.map": "/reactportfolio/static/js/592.a901ef46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98b6248e.css",
-    "static/js/main.9c0aaadd.js"
+    "static/css/main.73f45879.css",
+    "static/js/main.f0a1a86b.js"
   ]
 }
