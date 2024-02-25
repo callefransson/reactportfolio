@@ -24,10 +24,13 @@ export default function Portfolio(){
             loading
             size={100}
             />
-            <h2 className="p-4 text-light ">Loading content</h2>
+            <h2 className="p-4 text-light ">Laddar innehåll</h2>
           </div>
           :
-        <GithubProjects />
+          <>
+          <h1 className='text-center pt-5 display-2 text-light'>Mina Github projekt</h1>
+            <GithubProjects />
+          </>
         }
         </main>
         </>

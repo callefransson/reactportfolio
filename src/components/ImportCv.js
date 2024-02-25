@@ -2,6 +2,7 @@ import React from "react";
 import CvJson from '../json/Cv.json';
 import '../css/Cv.css';
 import Image from 'react-bootstrap/Image';
+import ProfileImage from '../assets/profilbild-new.jpg';
 
 const ImpportCv = ()=>{
 return(
@@ -10,7 +11,7 @@ return(
     <div className="d-flex" id="cv-section">
         <div className="d-flex flex-column">
             <aside className="p-4" id="aside-content">
-                <Image src="./images/profilbild-new.jpg" rounded width={250}/>
+                <Image src={ProfileImage} rounded width={250}/>
             <h1 className="pt-3 ">CV</h1>
             {CvJson.personalInfo.map((info)=>(
                 <address key={info.id} className="fst-italic lh-sm">

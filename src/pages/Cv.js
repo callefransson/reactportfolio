@@ -4,7 +4,7 @@ import ImpportCv from "../components/ImportCv";
 export default function CV(){
     return(
         <main>
-    <ImpportCv />
+            <ImpportCv />
         </main>
     );
 }

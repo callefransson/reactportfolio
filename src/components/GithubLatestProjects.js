@@ -1,26 +1,26 @@
 import React, {useState, useEffect } from 'react';
-import Card from 'react-bootstrap/Card';
 import '../css/Portfolio.css';
+import {Card } from 'react-bootstrap';
 import GithubImage from '../assets/labb4bildglitch.jpg';
 import { Link } from 'react-router-dom';
 
+const GithubLatestProjects = () => {
+    const [projects, setProjects] = useState([]);
 
-export default function GithubProjects() {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    async function fetchProjects() {
-      try {
-        const response = await fetch('https://api.github.com/users/callefransson/repos');
-
-        const data = await response.json();
-        setProjects(data);
-    } catch (error) {
-     console.error('Error fetching projects:', error);
-   }
-}
-    fetchProjects();
-  }, []);
+    useEffect(()=>{
+        async function fetchProjects(){
+            try {
+                const response = await fetch('https://api.github.com/users/callefransson/repos');
+                const data = await response.json();
+                data.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+                const latestProjects = data.slice(0, 3);
+                setProjects(latestProjects);
+            } catch (error) {
+                console.error('Error fetching projects:', error);
+            }
+        }
+        fetchProjects();
+    },[]);
 
   return (
     <div className='container-fluid'>
@@ -43,5 +43,7 @@ export default function GithubProjects() {
     ))}
     </div>
   </div>
-  );
+  )
 }
+
+export default GithubLatestProjects

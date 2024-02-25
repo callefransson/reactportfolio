@@ -1,0 +1,35 @@
+.profile-img {
+    max-width: 55vh; /* Ange önskad bredd */
+    height: auto; /* Låt höjden skalas automatiskt för att bevara proportionerna */
+}
+.first-content{
+    padding-top:7rem;
+}
+.text-content{
+    max-width: 40rem;
+}
+@media only screen and (max-width:1400px) {
+    .first-content {
+        flex-direction: column-reverse !important;
+        align-items: center;
+    }
+    .text-content{
+        text-align: center;
+    }
+    .btn-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:470px){
+.profile-img{
+    max-width: 45vh;
+}
+
+}
+@media only screen and (max-width:375px){
+    .profile-img{
+        max-width: 35vh;
+    }
+    
+    }

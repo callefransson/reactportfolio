@@ -4,6 +4,7 @@ import '../css/Form.css';
 import '../css/index.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Modal from '../components/Modal';
 
 export default function ContactForm() {
   const form = useRef();
@@ -12,31 +13,20 @@ export default function ContactForm() {
     e.preventDefault();
   
     const formData = new FormData(form.current);
-    const sendersFirstName = formData.get('user_firstname'); // Antagande att användarens namn är i ett enda fält
-    const sendersLastName = formData.get('user_lastname');
+    const sendersFirstName = formData.get('user_firstname'); 
   
-    // Lägger till avsändarens namn i formuläret innan det skickas
     formData.set('from_firstname', sendersFirstName);
   
     emailjs.sendForm('service_00q7dkh', 'template_0tlyno8', form.current, {
       publicKey: '_IbBEugqmN2a9GGiZ',
     })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
   };
   return (
     <main>
       <div className='container text-light p-4' id='form-container'>
         <Form ref={form} onSubmit={sendEmail}>
           <Form.Group className="mb-4" controlId="exampleForm.ControlInput1">
-            <Form.Label>Förnamn*</Form.Label>
-            <Form.Control required type="text" name="user_firstname" placeholder="Förnamn" />
+            <Modal />
           </Form.Group>
           <Form.Group className="mb-4" controlId="exampleForm.ControlInput2">
             <Form.Label>Efternamn*</Form.Label>

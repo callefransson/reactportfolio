@@ -14,10 +14,25 @@ body {
 main{
   background-color: #0d1114;
   min-height: 100vh;
-  margin-top: 70px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn-light{
+  padding:10px 20px;
+  background-color: transparent;
+  border:1px solid #fff;
+}
+.btn-light:hover{
+  background-color: #131313bb;
+}
+.scroll-to-top-btn{
+  position: relative;
+  bottom: 12rem;
+  width: 6vh;
+  cursor: pointer;
+  filter: brightness(0) invert(1)
 }
