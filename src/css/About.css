@@ -1,6 +1,6 @@
 .profile-img {
-    max-width: 55vh; /* Ange önskad bredd */
-    height: auto; /* Låt höjden skalas automatiskt för att bevara proportionerna */
+    max-width: 55vh;
+    height: auto; 
 }
 .first-content{
     padding-top:7rem;
