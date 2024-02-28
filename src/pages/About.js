@@ -5,13 +5,12 @@ import HobbyImg from '../assets/golf-image.jpg';
 import OfficeImg from '../assets/office-image.jpg'
 import Image from 'react-bootstrap/Image';  
 import { Link } from 'react-router-dom';
-import TestImg from '../assets/Namnlös-removebg-preview.png'
 export default function About(){
     return(
         <main>
             <section className='container text-light d-flex flex-row flex-wrap justify-content-center gap-5 first-content'>
                 <aside className="aside-image-container">
-                        <Image src={TestImg} className='profile-img' alt="Profile image" />
+                        <Image src={ProfileImg} className='profile-img' alt="Profile image" />
                 </aside>
                 <div className='text-content'>
                     <h1 className='display-3 pt-5 pb-4'>Om mig</h1>
