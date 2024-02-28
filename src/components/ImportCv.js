@@ -43,6 +43,22 @@ return(
                 ))}
             </div>
             <div>
+            <h2>Programmeringsspråk</h2>
+                {CvJson.programming.map((skills)=>(
+                    <div key={skills.id}>
+                        <p>{skills.computerLanguage}</p>
+                    </div>
+                ))}
+            </div>
+            <div>
+            <h2>Programvaror</h2>
+                {CvJson.program.map((lang)=>(
+                    <div key={lang.id}>
+                        <p>{lang.software}</p>
+                    </div>
+                ))}
+            </div>
+            <div>
             <h2>Språk</h2>
                 {CvJson.language.map((lang)=>(
                     <div key={lang.id}>
@@ -56,6 +72,14 @@ return(
                 {CvJson.merits.map((m)=>(
                     <div key={m.id}>
                         <p>{m.B}</p>
+                    </div>
+                ))}
+            </div>
+            <div>
+            <h2>Målsättnig</h2>
+                {CvJson.goals.map((goal)=>(
+                    <div key={goal.id}>
+                        <p>{goal.workGoals}</p>
                     </div>
                 ))}
             </div>

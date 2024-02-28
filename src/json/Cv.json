@@ -30,23 +30,45 @@
                 "company": "Preem/Time bensinstation med tillhörande gatukök. Iggesund Hudiksvall, 2014-2023"
             }
         ],
+        "programming":[
+            {
+                "id":6,
+                "computerLanguage":[
+                    " HTML, ", " CSS, ", " JAVASCRIPT, ", " REACT, ", " .NET, ", " C#, ", " SQL "
+                ]
+            }
+        ],
+        "program":[
+            {
+                "id":7,
+                "software":[
+                    "Visual studio, ", " Visual studio code, ", " SSMS, ", " Github, "," Wordpress "
+                ]
+            }
+        ],
         "language":[
             {
-                "id": 6,
-                "swedish": "Modersmål",
-                "english": "Mycket bra kunskaper"
+                "id": 8,
+                "swedish": "Svenska: Modersmål",
+                "english": "Engelska: Mycket bra kunskaper"
             }
         ],
         "merits":[
             {
-                "id": 7,
+                "id": 9,
                 "B": "B behörighet med tillgång till bil"
+            }
+        ],
+        "goals":[
+            {
+                "id": 10,
+                "workGoals": "Att få möjlighet att växa och utvecklas inom mitt område genom att ta ansvar för olika delar av systemutvecklingsprocessen, från kravspecifikation till implementering och underhåll."
             }
         ],
         "references":[
             {
-                "id": 8,
-                "reference": "Lämnas vid förfrågan"
+                "id": 11,
+                "reference": "Lämnas vid efterfrågan"
             }
         ]
     }
