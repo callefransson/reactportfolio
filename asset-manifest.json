@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.16c3a7f8.css",
-    "main.js": "/reactportfolio/static/js/main.c47fefcf.js",
+    "main.js": "/reactportfolio/static/js/main.d5308398.js",
     "static/js/592.a901ef46.chunk.js": "/reactportfolio/static/js/592.a901ef46.chunk.js",
     "static/media/office-image.jpg": "/reactportfolio/static/media/office-image.4599901a29e5cffe946a.jpg",
     "static/media/om-mig-bild.jpg": "/reactportfolio/static/media/om-mig-bild.3cb3f6dd673fca0d505f.jpg",
@@ -14,16 +14,17 @@
     "static/media/fa-solid-900.woff2": "/reactportfolio/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
     "static/media/fa-brands-400.woff2": "/reactportfolio/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
     "static/media/fa-regular-400.ttf": "/reactportfolio/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/Namnlös-removebg-preview.png": "/reactportfolio/static/media/Namnlös-removebg-preview.4d987f5e34fd7d165661.png",
     "static/media/fa-regular-400.woff2": "/reactportfolio/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
     "static/media/fa-v4compatibility.ttf": "/reactportfolio/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/reactportfolio/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/reactportfolio/index.html",
     "main.16c3a7f8.css.map": "/reactportfolio/static/css/main.16c3a7f8.css.map",
-    "main.c47fefcf.js.map": "/reactportfolio/static/js/main.c47fefcf.js.map",
+    "main.d5308398.js.map": "/reactportfolio/static/js/main.d5308398.js.map",
     "592.a901ef46.chunk.js.map": "/reactportfolio/static/js/592.a901ef46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16c3a7f8.css",
-    "static/js/main.c47fefcf.js"
+    "static/js/main.d5308398.js"
   ]
 }
